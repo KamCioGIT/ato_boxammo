@@ -4,6 +4,7 @@ author 'seigneuratoshit'
 lua54 "yes"
 
 shared_scripts {
+    '@es_extended/imports.lua',
     'shared.lua'
 }
 
