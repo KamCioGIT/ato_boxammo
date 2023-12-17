@@ -5,7 +5,9 @@ local Shared <const> = {
     BoxAmmo = {
         { itemBox = 'inv_box_ammo_9', itemAmmo  = 'ammo-9', receiveNumber = 20 },
         { itemBox = 'inv_box_ammo_rifle', itemAmmo  = 'ammo-rifle', receiveNumber = 10 },
-    }
+    },
+
+    Notify = true -- Activer ou desactiver les notifications à l'utilisation de la boîte
 } 
 
 _ENV.Shared = Shared
